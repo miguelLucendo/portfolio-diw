@@ -1,6 +1,34 @@
 * {
     /* border: 1px solid red; */
-    background-color: gray;
+    /* background-color: gray; */
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a:link, footer a:visited, footer a:active {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    transition: all .2s;
+}
+footer a:hover {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(115, 115, 115);
+}
+.form-rounded {
+    border-radius: .75rem;
+}
+.hover-corazon {
+    transition: all .5s;
+}
+.hover-corazon:hover {
+    color: red;
 }
 /* #header, #header * {
     background-color: black;
