@@ -13,15 +13,38 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="css/burguer-menu.css"> -->
     <!-- <script src="js/bootstrap.js"></script> -->
+
+    <link rel="stylesheet" href="css/burger-menu.css">
+    <script src="js/burger-menu.js"></script>
     <title>Miguel Lucendo</title>
 </head>
 
 <body>
     <header class="text-center p-5">
-        <h1>Miguel Lucendo</h1>
-        <h3>Desarrollador multiplataforma y web</h2>
+        <div>
+            <div class="row">
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    <div id="burger-menu" class="">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h1>Miguel Lucendo</h1>
+                    <h3>Desarrollador multiplataforma y web</h2>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
+        </div>
     </header>
     <div id="content">
+        <div id="menu">
+            <ul>
+                <li><a href="./diw.html">DIW</a></li>
+                <li><a href="./acerca_de.html">Acerca de</a></li>
+            </ul>
+        </div>
         <section id="proyectos" class="container">
             <h2 class="row justify-content-center mt-5 mb-5">Proyectos</h2>
             <div class="proyecto proyecto1 row mt-5 mb-5 py-md-4">
@@ -152,7 +175,7 @@
                         </p>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
     </div>
     <footer>
