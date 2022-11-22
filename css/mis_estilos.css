@@ -23,7 +23,7 @@ footer a:hover {
     color: rgb(115, 115, 115);
 }
 .form-rounded {
-    border-radius: .75rem;
+    border-radius:7px;
 }
 .hover-corazon {
     transition: all .5s;
@@ -35,3 +35,22 @@ footer a:hover {
     background-color: black;
     color: white;
 } */
+
+/* ACERCA DE */
+
+/* .lenguaje {
+    opacity: .3;
+    transition: all .4s;
+}
+.lenguaje:hover {
+    opacity: 1;
+} */
+.entra {
+    opacity: 0;
+    animation: entrada_derecha 2s linear forwards;
+}
+
+@keyframes entrada_derecha {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
