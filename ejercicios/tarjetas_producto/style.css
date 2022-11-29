@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.ficha {
+    width: 350px;
+    height: 350px;
+    border: 2px solid aqua;
+    border-radius: 15px;
+}
+#ficha1 {
+    background-image: url('./img/black_hole.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size .7s;
+
+    color: white;
+    text-align: center;
+}
+#ficha1 h3 {
+    margin-top: 230px;
+}
+#ficha1:hover {
+    background-size: 150% 150%;
+}
+#ficha2 {
+    overflow: hidden;
+}
+#texto_ficha2 {
+    color: crimson;
+    text-align: center;
+    opacity: 0;
+    transition: all 1.3s;
+    transition-timing-function: ease-out;
+    /* transition: opacity 0.7s; */
+    
+}
+#texto_ficha2 h3 {
+    margin-top: 230px;
+}
+#ficha2:hover #texto_ficha2{
+    transform: translate(0px, -355px);
+    opacity: 1;
+}
+
+#ficha3 {
+    background-image: url('./img/sol.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: all .7s;
+    overflow: hidden;
+
+    color: darkturquoise;
+    text-align: center;
+}
+#ficha3:hover {
+    background-size: 75% 75%;
+    color: white;
+}
+#ficha3 h1 {
+    transition: all .7s;
+}
+#ficha3 h1:hover {
+    color: rgb(255, 77, 0);
+    transform: scale(2);
+}
+#ficha3 h3 {
+    margin-top: 230px;
+    transition: all .7s;
+}
+#ficha3 h3:hover {
+    color: lime;
+    transform: scale(1.5);
+}
+#carrito_ficha3 {
+    transition: all .8s;
+}
+#carrito_ficha3:hover {
+    color: lime;
+    transform: translate(0px, -10px);
+    /* transform: scale(1.2); */
+}
+#carrito_ficha3:active {
+    transform: translate(185px, -10px);
+}

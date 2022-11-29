@@ -1,0 +1,58 @@
+#imagenes {
+    padding: 75px;
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+img {
+    border: 1px solid;
+}
+.img1 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.img1:hover {
+    opacity: 0.5;
+}
+.img2 {
+    transition: transform 2s;
+    transform-origin: bottom left;
+}
+.img2:hover {
+    transform: scale(1.3);
+    
+}
+.img3 {
+    transition: border-radius 1s;
+    transition-delay: 2s;
+}
+.img3:hover {
+    border-radius: 10px;
+}
+.img4 {
+    transition: transform 10s;
+    transition-timing-function: ease-in;
+}
+.img4:hover {
+   transform: scale(0.1); 
+}
+.img5 {
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.img5:hover {
+    transform: translate(0px, 400px);
+}
+.img6 {
+    display: block;
+}
+.img6:hover {
+    display:none;
+}

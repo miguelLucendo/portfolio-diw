@@ -1,0 +1,8 @@
+Pasar el raton por encima de las cartas y nos indique que SI que se pueden clicar
+
+Al pasar el raton y poderse clicar, se tendría que señalar de alguna manera
+
+Al clicar una carta, se da la vuelta, si hemos clicado otra y son iguales se quedan las dos con opacidad completa y no
+se puede volver a clicar ni volver a señalar
+
+Si clicamos dos y no son iguales, se tienen que volver a dar la vuelta.

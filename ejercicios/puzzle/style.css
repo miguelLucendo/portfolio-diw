@@ -1,0 +1,25 @@
+.puzzle {
+    position: relative;
+    margin: 0 auto;
+    width: 30%;
+}
+img {
+    opacity: 0.1;
+    transition: opacity 0.5s;
+}
+img:hover {
+    opacity: 1;
+}
+#blanca {
+    position: absolute;
+    left: 191px;
+    top: -3px;
+}
+#amarilla {
+    position: absolute;
+    left: 31px;
+    top: 222px;
+}
+#azul {
+    position: absolute;
+}

@@ -1,0 +1,62 @@
+.placa_base {
+    height: 800px;
+}
+
+.placa {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+
+.cpu {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+.grafica {
+    position: absolute;
+    top: 400px;
+    left: 75px;
+}
+
+.ram {
+    position: absolute;
+    left: 1200px;
+    top: 75px;
+}
+
+.fuente {
+    position: absolute;
+    left: 1100px;
+    top: 400px;
+}
+
+.cpu,
+.grafica,
+.ram,
+.fuente {
+    transition: all 3s linear;
+}
+
+.cpu:hover {
+    top: 16%;
+    left: 37%;
+    transform: matrix(1.00, -0.30, 0.40, 1.00, 0, 0);
+}
+
+.grafica:hover {
+    top: 27%;
+    left: 30%;
+    transform: matrix(1.00, 0.23, 0.00, 1.00, 0, 0);
+}
+
+.ram:hover {
+    top: 11%;
+    left: 45%;
+}
+
+.fuente:hover {
+    top: 19%;
+    left: 51%;
+}

@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-color: gray;
+  }
+  input {
+    display: none;
+  }
+  
+  .tarjeta,
+  .cara {
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  
+  .tarjeta .cara {
+    position: absolute;
+  }
+  
+  .tarjeta {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform-style: preserve-3d;
+  }
+  
+  .delante {
+    border: 2px solid silver;
+    background-color: white;
+    transform: translateZ(1px);
+  }
+  
+  .atras {
+    background-image: url('../img/piscina.jpg');
+    background-size: 100% 100%;
+    transform: translateZ(1px);
+  }
+  
+  .texto1, .texto2 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .texto1{
+  transform: translateZ(100px);
+  }
+  p{font-size: 30px}
+  p.par{
+    color: rgb(220, 240, 108);
+    font-size: 15px; 
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  }
+  label#boton2{
+    color: rgb(220, 240, 108);
+    border: 1px solid rgb(220, 240, 108);
+    margin-top: -5%;
+  }
+  label:hover {
+    cursor: pointer;
+    color: rgb(220, 240, 108);
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .texto2 {
+    color: rgb(217, 255, 0);
+    transform: translateZ(-100px) rotateY(180deg);
+  }
+  
+  .tarjeta {
+   animation-direction: normal;
+   animation-duration: 2s;
+   animation-play-state: running;
+  }
+  
+  #b:checked ~ .tarjeta{
+    animation-name: rotar;
+    transform: rotateY(180deg);
+  }
+  
+  @keyframes rotar{
+    from{transform: rotateY(0deg); }
+    to{transform: rotateY(180deg);}
+  }
+  #a:checked ~ .tarjeta{
+    animation-name: rotar2;
+    transform: rotateY(0deg);
+  }
+  
+  @keyframes rotar2{
+    from{transform: rotateY(180deg); }
+    to{transform: rotateY(0deg);}
+  }

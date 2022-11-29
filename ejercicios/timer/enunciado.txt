@@ -1,0 +1,5 @@
+Reloj de arena que da 2 vueltas. despacio.
+Se mueve muy despacio en un tramo específico de la segunda vuelta y después termina la segunda vuelta normal.
+Tenemos una barra de progreso que sube hasta un 80% pasando por 3 colores, azul, amarillo y naranja. Ese 80% es el momento en el que la barra
+baja al 20% en color rojo y el reloj de arena se mueve despacio. Después subimos al 90%, volvemos a mover nuestro reloj de arena a una velocidad
+normal y llegamos al 100% a la vez que nuestro reloj acaba la segunda vuelta y convertimos en el último 0.1% la barra en verde.

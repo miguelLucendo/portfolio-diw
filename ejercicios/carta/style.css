@@ -1,0 +1,49 @@
+.baraja {
+
+}
+
+.carta {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 2.5in;
+    height: 3.5in;
+
+    transition: all .5s;
+}
+.carta > div{
+    width: 2.5in;
+    height: 3.5in;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.delante {
+    transition: all .5s;
+    z-index: 0;
+}
+.detras {
+    transition: all .5s;
+    z-index: 10;
+}
+#new .delante {
+    background: url('./as.png');
+    background-size: cover;
+
+}
+#new .detras {
+    background: url('./as_detras.png');
+    background-size: cover;
+}
+
+
+.carta:hover > div {
+    /* z-index: 1; */
+    transform: rotateY(180deg);
+}
+.carta:hover .detras {
+    z-index: 0;
+}
+.carta:hover .delante {
+    z-index: 10;
+}

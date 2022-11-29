@@ -1,0 +1,53 @@
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+body {
+    display: flex;
+    overflow: hidden;
+    background-image: url(../img/fondo_agua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.onda div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    left: 600px;
+    bottom: 50px;
+    border: 1px solid aquamarine;
+    border-radius: 1000px;
+}
+.onda1 {
+    animation: onda 4s infinite;
+}
+.onda2 {
+    animation: onda 4s infinite;
+    animation-delay: 0.3s;
+}
+.onda3 {
+    animation: onda 4s infinite;
+    animation-delay: 0.7s;
+}
+.onda4 {
+    animation: onda 4s infinite;
+    animation-delay: 1.1s;
+}
+
+@keyframes onda {
+    0% {
+        scale: 1;
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        scale: 75;
+    }
+}
