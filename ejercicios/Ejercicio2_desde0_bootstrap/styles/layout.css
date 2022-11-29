@@ -1,0 +1,54 @@
+@import url("fonts/GeorgiaPro/style.css");
+
+body {
+    font-family: 'Georgia Pro';
+}
+#navegacion {
+    padding-right: 36px;
+}
+.content {
+    padding: 0;
+}
+.header, .footer {
+    background-color: #333333;
+}
+.title {
+    color: #c0bab6;
+}
+.nav-item a {
+    background-color: #232323;
+    color: #c0bab6;
+}
+.nav-item a:hover {
+    color: #9a9592;
+}
+.section {
+    color: #979797;
+}
+.section h2 {
+    font-style: italic;
+}
+.article a{
+    text-align: right;
+}
+.footer p {
+    color: #919191;
+}
+a {
+    text-decoration: none;
+}
+.dorado {
+    color: #ff9900;
+}
+.dorado:hover {
+    color: #b76b00;
+}
+.footer #a {
+    background-color: #232323;
+    padding-bottom: 78px;
+    
+}
+.sin-padding {
+    padding-left: 0;
+    padding-right: 0;
+}

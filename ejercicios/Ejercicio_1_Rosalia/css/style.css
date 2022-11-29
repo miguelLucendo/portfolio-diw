@@ -1,0 +1,127 @@
+@import url("fonts/instagram_font/style.css");
+
+header {
+    display: flex;
+    gap: 15px;
+}
+/* #content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+} */
+#side_content, #main_content {
+    display: flex;
+    flex-direction: column;
+}
+#interaction_bar {
+    display: flex;
+    flex-direction: column;
+}
+#icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+#foto_rosalia {
+    max-width: 98%;
+}
+.derecha {
+    margin-left: auto;
+}
+p, .fuente {
+    font-family: 'Instagram Sans';
+}
+.gris {
+    color: rgb(157, 157, 157);
+}
+#title, #title_top, #title_bottom, #description_content {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+#title {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#title_inside {
+    display: flex;
+    flex-direction: column;
+}
+/* #description {
+    display: flex;
+    flex-direction: column;
+} */
+.azul {
+    color:rgb(68, 162, 245);
+}
+.azul:hover {
+    color:rgb(0, 0, 0);
+}
+.circulo {
+    border-radius: 50%;
+    border: 2px solid #d82b7d;
+}
+#circle_plus {
+    margin-bottom: 5px;
+}
+#comments, .comment_content, .title_content {
+    display: flex;
+    flex-direction: column;
+}
+.height_centered {
+    display: inline-block;
+     vertical-align: middle
+}
+.comment, .titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+footer {
+    margin-top: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 499px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
