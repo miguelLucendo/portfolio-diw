@@ -45,6 +45,9 @@ footer a:hover {
 .lenguaje:hover {
     opacity: 1;
 } */
+section#ejercicios ul {
+    list-style-type: none;
+}
 .entra {
     opacity: 0;
     animation: entrada_derecha 2s linear forwards;
