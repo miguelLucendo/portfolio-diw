@@ -11,15 +11,39 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>DIW</title>
+    <link rel="stylesheet" href="css/burger-menu.css">
+    <script src="js/burger-menu.js"></script>
 </head>
 
 <body>
     <header class="text-center p-5">
-        <h1>DIW</h1>
-        <h3>Desarrollo de interfaces web</h3>
+
+        <div>
+            <div class="row">
+                <div class="col-2 d-flex justify-content-md-center align-items-md-center pt-3 pt-md-0">
+                    <div id="burger-menu" class="">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h1>DIW</h1>
+                    <h3>Desarrollo de interfaces web</h3>
+                </div>
+                <div class="col-2">
+                    
+                </div>
+            </div>
+        </div>
+
+
     </header>
     <div id="content" class="mb-5">
-        
+        <div id="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./acerca_de.html">Acerca de</a></li>
+            </ul>
+        </div>
     </div>
     <footer>
         <div class="container pt-5">
